@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Phone Guardian 개인정보처리방침">
+  <meta name="color-scheme" content="light">
+  <title>개인정보처리방침 | Phone Guardian</title>
+  <style>
+    :root{color-scheme:light;--ink:#192337;--muted:#5b667a;--blue:#315ee8;--line:#e4e9f2;--wash:#f4f7fc;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+    .hero{padding:64px 22px 50px;background:linear-gradient(135deg,#14213d,#315ee8);color:white}.hero-inner,main,footer{max-width:900px;margin:auto}.eyebrow{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;opacity:.78}.hero h1{margin:8px 0;font-size:clamp(2rem,6vw,3.3rem);line-height:1.2}.hero p{margin:8px 0 0;max-width:680px;color:#e3eaff}.meta{margin-top:24px;font-size:.9rem;color:#d4defb}.languages{display:flex;gap:10px;margin-top:18px}.languages a{display:inline-block;border:1px solid #ffffff80;border-radius:999px;padding:5px 13px;color:#fff;text-decoration:none;font-size:.9rem}.languages a:hover,.languages a:focus{background:#ffffff20}
+    main{padding:30px 18px 64px}.notice,.card{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:24px;margin:16px 0;box-shadow:0 8px 28px #22335c0a}.notice{border-left:5px solid #f0ad35}.notice strong{display:block;margin-bottom:5px}.notice p{margin:0;color:var(--muted)}.card h2{margin:0 0 12px;font-size:1.25rem;line-height:1.4}.card h3{margin:20px 0 6px;font-size:1rem}.card p{margin:8px 0}.card ul{padding-left:1.25rem;margin:8px 0}.card li{padding:2px 0}.muted{color:var(--muted)}a{color:var(--blue);overflow-wrap:anywhere}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:580px;font-size:.94rem}th,td{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid var(--line)}th{background:#f7f9fd}footer{padding:0 18px 44px;color:var(--muted);font-size:.9rem}.pill{display:inline-block;background:#edf2ff;color:#294fce;border-radius:999px;padding:2px 10px;font-size:.8rem;font-weight:650}.small{font-size:.9rem}
+    @media(max-width:600px){.hero{padding:44px 20px 36px}.card,.notice{padding:19px;border-radius:14px}main{padding:20px 12px 44px}body{font-size:15px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Phone Guardian · Privacy</div>
+      <h1>개인정보처리방침</h1>
+      <p>Phone Guardian이 어떤 정보를 기기에서 처리하고, 광고 서비스가 어떤 정보를 처리할 수 있는지 설명합니다.</p>
+      <div class="meta">시행일: 2026년 10월 6일 · 앱 이름: Phone Guardian</div>
+      <nav class="languages" aria-label="Language"><a href="#ko-policy" lang="ko">한국어</a><a href="#en-policy" lang="en">English</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="card" id="ko-policy">
+      <h2>1. 운영자 및 적용 범위</h2>
+      <p>이 방침은 Phone Guardian Android 앱(이하 “앱”)이 제공되는 모든 국가와 지역에 적용됩니다. 현지 개인정보 보호 법률이 추가 권리를 보장하는 경우 해당 법률과 이 방침을 함께 적용합니다. 운영자는 <strong>Momo World</strong>입니다. 앱의 로컬 센서 처리에는 운영자의 별도 서버가 사용되지 않습니다.</p>
+      <p><strong>개인정보 문의:</strong> <a href="mailto:say101011@gmail.com">say101011@gmail.com</a></p>
+      <p class="small muted">앱에 계정 생성 기능은 없습니다. 현재 확인한 소스에는 Gemini 요청, Firebase Analytics, Crashlytics 또는 개발자 서버로 데이터를 전송하는 기능이 구현되어 있지 않습니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. 처리하는 정보와 목적</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>정보</th><th>처리 목적 및 방식</th><th>보관</th></tr></thead>
+        <tbody>
+          <tr><td>가속도계 움직임 측정값</td><td>사용자가 보호 기능을 켠 동안 휴대전화 움직임을 감지하고 알림을 발생시킵니다. 앱/Android 서비스가 기기 안에서 처리하며 운영자 서버로 보내지 않습니다.</td><td>감지에 필요한 동안 메모리에서 처리하고 기록 데이터베이스에 저장하지 않습니다.</td></tr>
+          <tr><td>충전 연결 상태와 배터리 잔량</td><td>충전기 분리 또는 사용자가 정한 배터리 수준을 감지해 기기 내 알림을 제공합니다. 운영자 서버로 보내지 않습니다.</td><td>감지에 필요한 동안만 처리합니다.</td></tr>
+          <tr><td>앱 설정</td><td>감지 모듈, 민감도, 카운트다운, 알림음·진동·플래시 옵션을 적용하기 위해 Android DataStore에 저장합니다.</td><td>사용자가 앱 데이터를 지우거나 앱을 제거할 때까지 이 기기에 보관됩니다.</td></tr>
+          <tr><td>선택한 PIN의 해시값</td><td>보호 해제 시 PIN 일치 여부를 확인합니다. 원문 PIN은 확인 순간에만 처리하고 저장하지 않습니다. 로컬에 SHA-256 해시값을 둡니다.</td><td>PIN을 끄거나 앱 데이터를 지우거나 앱을 제거할 때까지 이 기기에 보관됩니다.</td></tr>
+          <tr><td>광고 및 SDK 정보</td><td>Google Mobile Ads SDK(AdMob)는 광고 제공, 측정, 분석 및 부정 사용 방지를 위해 IP 주소(일반 위치 추정에 쓰일 수 있음), 광고/앱 식별자, 앱 내 광고 상호작용, 진단 정보를 자동 수집·공유할 수 있습니다. Google UMP SDK는 광고 동의 상태와 개인정보 선택 화면을 처리합니다. 실제 동작은 지역, 동의 및 AdMob 설정에 따라 달라집니다.</td><td>Google 및 광고 서비스 제공자의 정책과 설정에 따릅니다. 운영자는 이 SDK 데이터의 보관 기간을 직접 정하거나 서버에서 삭제할 수 없습니다.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small muted">앱은 앱 기능을 위해 연락처, 위치 권한, 사진/영상, 마이크, SMS 또는 통화 기록을 요청하지 않습니다. 플래시 기능은 카메라 촬영이 아니라 Android의 플래시 제어 기능만 사용합니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. 제3자 제공 및 국외 처리</h2>
+      <p>센서 측정값, 충전 상태, 배터리 잔량, 앱 설정 및 PIN 해시는 운영자 또는 광고 제공자에게 전달되지 않습니다. 광고를 요청할 수 있는 상태에서는 Google Mobile Ads SDK 및 UMP SDK가 Google LLC, Google 계열사 및 AdMob 설정에 따라 광고 전달·측정에 관여하는 광고 기술 제공자에게 위 표의 정보를 전송할 수 있습니다.</p>
+      <p>Google 및 해당 제공자는 사용자의 국가 밖을 포함한 여러 국가에서 정보를 처리할 수 있습니다. 적용되는 이전 근거와 보호조치는 Google의 서비스 설정 및 해당 지역의 법률에 따릅니다. EEA, 영국 또는 스위스에서 표시되는 동의 화면은 해당 지역에 설정된 광고 기술 제공자와 선택지를 보여줍니다.</p>
+      <p>Google의 정보 처리 방법은 <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google 개인정보처리방침</a> 및 <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google Mobile Ads SDK 데이터 공개 안내</a>에서 확인할 수 있습니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>4. 광고 선택 및 철회</h2>
+      <p>앱은 시작할 때 UMP SDK를 통해 해당 지역에서 필요한 광고 동의 정보를 확인합니다. 동의 상태가 광고 요청을 허용하지 않으면 앱은 광고를 요청하지 않습니다. 개인정보 옵션이 필요한 경우 설정 화면의 <span class="pill">Privacy Options</span>에서 선택을 다시 열 수 있습니다. 광고 개인화 설정은 Android의 광고 설정에서도 관리할 수 있습니다.</p>
+      <p>EEA·영국·스위스 및 미국 일부 주의 추가 선택지는 실제 AdMob Privacy &amp; messaging 설정, 지역 판정, 계정 구성에 따라 달라집니다. 개발자는 출시 전에 각 지역에 적용되는 메시지와 철회 경로가 AdMob 콘솔에서 게시되어 있는지 확인해야 합니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>5. 보안 및 보유 기간</h2>
+      <p>운영자는 앱 계정이나 자체 사용자 데이터베이스를 운영하지 않습니다. 앱 설정과 PIN 해시는 앱 전용 저장소에 남으며 사용자는 Android 설정에서 앱 데이터를 지우거나 앱을 제거하여 삭제할 수 있습니다. PIN은 SHA-256 해시로 저장되지만, 이는 고강도 PIN 보관을 보장하는 보안 저장소를 의미하지 않습니다.</p>
+      <p>광고 SDK가 전송하는 데이터는 전송 중 암호화되며 Google과 서비스 제공자의 보유·삭제 규칙을 따릅니다. 광고 관련 정보의 삭제 또는 설정은 <a href="https://myadcenter.google.com/" rel="noopener noreferrer">Google 광고 센터</a>와 Android 광고 설정 등 Google이 제공하는 도구를 이용할 수 있습니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>6. 지역별 개인정보 권리</h2>
+      <h3>대한민국</h3>
+      <p>개인정보 보호법이 적용되는 경우 정보주체는 법령에 따라 개인정보 열람, 정정·삭제, 처리정지 등을 요청할 수 있습니다. 광고 SDK가 처리하는 정보에 관한 요청은 Google이 제공하는 개인정보 및 광고 설정 도구도 이용해 주세요. 운영자에게 권리를 행사하거나 문의하려면 <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 연락해 주세요. 필요한 경우 개인정보보호위원회 등 관계 기관에 상담 또는 신고할 수 있습니다.</p>
+      <h3>유럽경제지역(EEA), 영국 및 스위스</h3>
+      <p>해당 지역의 법률이 적용되는 경우 열람, 정정, 삭제, 처리 제한, 반대, 이동 및 감독기관에 민원을 제기할 권리가 있을 수 있습니다. 광고 동의를 철회해도 철회 전 처리의 적법성에는 영향을 주지 않습니다. 앱의 광고 동의 선택은 설정의 개인정보 옵션에서 다시 열 수 있습니다. Google이 독립적으로 처리하는 정보에 관한 권리는 Google에 직접 행사해야 할 수 있습니다.</p>
+      <h3>미국 주별 개인정보법</h3>
+      <p>거주 주의 법률이 적용되는 경우 개인정보 열람, 정정 또는 삭제와 표적 광고·판매·공유의 거부 등 권리가 있을 수 있습니다. 해당 선택이 UMP 화면에 제공되면 앱 설정의 개인정보 옵션에서 다시 확인할 수 있으며, Google 광고 설정도 이용할 수 있습니다. 앱 운영자의 계정·자체 광고 프로필은 없습니다.</p>
+      <h3>브라질</h3>
+      <p>LGPD가 적용되는 경우 처리 여부 확인, 접근, 정정, 불필요하거나 과도하거나 법에 맞지 않는 데이터의 익명화·차단·삭제, 동의 철회 및 공유받는 기관에 관한 정보 요청 등 법률상 권리를 행사할 수 있습니다. <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 요청해 주세요. Google 광고 서비스가 독립적으로 처리하는 데이터는 Google에도 요청해야 할 수 있습니다. 국제 이전에는 적용되는 LGPD 이전 요건과 보호조치가 적용됩니다.</p>
+      <h3>일본</h3>
+      <p>개인정보 보호법(APPI)이 적용되는 경우 법률상 요건을 충족하는 범위에서 보유 개인정보의 공개, 정정·추가·삭제, 이용 정지 또는 제3자 제공 정지를 요청할 수 있습니다. <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 연락해 주세요. Google이 처리하는 광고 데이터는 Google의 공개 및 선택 도구를 이용해 주세요.</p>
+      <h3>캐나다</h3>
+      <p>연방 또는 적용되는 주 개인정보 보호 법률에 따라 보유 정보에 대한 접근과 정정을 요청할 수 있습니다. <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 요청할 수 있으며, 해결되지 않은 사안은 적용되는 개인정보 보호 감독기관에 제기할 수 있습니다.</p>
+      <h3>호주</h3>
+      <p>Privacy Act와 Australian Privacy Principles이 적용되는 경우 보유 중인 개인정보에 대한 접근과 정정을 요청할 수 있습니다. 국외 수신자에게 정보가 공개되는 경우 적용되는 국외 공개 요건을 따릅니다. 요청은 <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 보내 주세요.</p>
+      <h3>싱가포르</h3>
+      <p>PDPA가 적용되는 경우 보유 정보에 대한 접근·정정을 요청할 수 있으며, 국외 이전에는 법률상 보호 수준 요건이 적용됩니다. <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 문의해 주세요.</p>
+      <h3>인도 및 기타 지역</h3>
+      <p>인도의 Digital Personal Data Protection Act와 시행 규칙을 포함해 거주 지역의 개인정보 보호 법률이 적용되는 경우, 해당 법률이 정한 권리와 요청 절차를 제공합니다. 위에 별도로 열거하지 않은 국가·지역에도 현지 법률상 권리가 우선 적용됩니다. 어느 지역에서든 개인정보 요청이나 불만은 <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>으로 접수할 수 있습니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>7. 아동 개인정보</h2>
+      <p>이 앱은 아동을 대상으로 설계된 앱이 아닙니다. 보호자 동의 없이 아동의 개인정보를 고의로 수집하지 않습니다. 앱의 실제 Play Console 대상 연령 설정은 이 설명과 일치해야 하며, 아동을 대상에 포함한다면 Google Play Families 및 광고 SDK 요구사항을 별도로 충족해야 합니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>8. 방침 변경 및 문의</h2>
+      <p>앱 기능, SDK, 관련 법령 또는 처리 방식이 바뀌면 이 방침을 갱신하고 시행일을 변경합니다. 중대한 변경은 앱 또는 공개된 정책 페이지를 통해 알립니다.</p>
+      <p><strong>운영자:</strong> Momo World · <strong>개인정보 문의:</strong> <a href="mailto:say101011@gmail.com">say101011@gmail.com</a></p>
+    </section>
+
+    <section class="card" id="en-policy" lang="en">
+      <h2>English version</h2>
+      <p>This notice applies in every country and region where Phone Guardian is offered. It supplements any additional rights or protections required by local law. The developer is <strong>Momo World</strong>. For privacy requests, contact <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>.</p>
+      <h3>Information and purposes</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Information</th><th>Purpose and handling</th><th>Retention</th></tr></thead>
+        <tbody>
+          <tr><td>Accelerometer readings</td><td>While monitoring is enabled, the app processes movement readings on your device to detect movement and trigger an alert. They are not sent to the developer or advertising providers and are not stored as a history.</td><td>Processed in memory only as needed for detection.</td></tr>
+          <tr><td>Charging connection and battery level</td><td>Processed on your device to detect disconnection or a battery level you selected and to trigger an alert. Not sent to the developer or advertising providers.</td><td>Processed only as needed for monitoring.</td></tr>
+          <tr><td>App settings</td><td>Stored in Android DataStore so your selected monitoring, sensitivity, countdown, sound, vibration, and flash preferences can be applied.</td><td>Until you clear app data or uninstall the app.</td></tr>
+          <tr><td>PIN hash</td><td>If you choose to set a PIN, the app briefly processes the PIN you enter and stores a SHA-256 hash on your device to verify it. The original PIN is not stored or sent to the developer.</td><td>Until you disable the PIN, clear app data, or uninstall the app.</td></tr>
+          <tr><td>Advertising SDK information</td><td>Google Mobile Ads SDK (AdMob) may automatically collect and share IP address (which may be used to estimate general location), advertising/app identifiers, ad interactions, and diagnostic information for advertising, measurement, analytics, and fraud prevention. Google UMP SDK processes consent choices. Actual processing depends on region, consent, and AdMob configuration.</td><td>Under Google’s and the relevant ad providers’ policies and settings; the developer cannot directly set their retention period or delete their records.</td></tr>
+        </tbody>
+      </table></div>
+      <p>The app does not request contacts, location permission, photos/videos, microphone, SMS, or call-log access for its features. The flash feature controls the device flash; it does not capture photos or video. The app has no account creation, developer-operated user database, or in-app account deletion process.</p>
+      <h3>Recipients and international processing</h3>
+      <p>Movement readings, charging/battery status, settings, and PIN hashes are not provided to the developer or ad providers. When ads can be requested, Google Mobile Ads and UMP SDKs may transmit the advertising information listed above to Google LLC, Google affiliates, and ad technology providers configured in AdMob. Those providers may process information in countries other than yours. Applicable safeguards and transfer mechanisms depend on the relevant provider, region, and service terms. Google’s disclosures are available in its <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Mobile Ads SDK data disclosure</a>.</p>
+      <h3>Advertising choices</h3>
+      <p>At app startup, UMP checks consent information and presents an applicable message configured for the app and region. Ads are requested only when UMP indicates that requests are allowed. If a privacy-options entry point is required for your region, you can reopen it in the app’s Settings. You can also use Android’s advertising settings and <a href="https://myadcenter.google.com/" rel="noopener noreferrer">Google My Ad Center</a>. Regional messages and available choices depend on AdMob Privacy &amp; messaging configuration.</p>
+      <h3>Security, retention, and deletion</h3>
+      <p>The developer does not operate an account service or user database for this app. Clear Phone Guardian’s app data or uninstall it to delete locally stored settings and the PIN hash. Google and ad providers control retention and deletion of their own SDK data. Google states that Google Mobile Ads SDK data is encrypted in transit using TLS. A SHA-256 PIN hash is stored locally; this does not mean that the app provides a dedicated secure credential vault.</p>
+      <h3>Rights by region</h3>
+      <ul>
+        <li><strong>South Korea:</strong> Where the Personal Information Protection Act applies, you may request access, correction/deletion, or suspension of processing under applicable law.</li>
+        <li><strong>EEA, United Kingdom, and Switzerland:</strong> Where applicable, you may have rights to access, rectify, erase, restrict or object to processing, data portability, withdraw consent, and complain to a supervisory authority.</li>
+        <li><strong>United States:</strong> Depending on state law, you may have rights to access, correct, or delete personal information and to opt out of targeted advertising, sale, or sharing. Applicable choices are made available through the configured privacy message and Google advertising controls.</li>
+        <li><strong>Brazil:</strong> Where the LGPD applies, rights may include confirmation, access, correction, anonymization/blocking/deletion in specified cases, portability, information about sharing, and consent withdrawal.</li>
+        <li><strong>Japan:</strong> Where the APPI applies and statutory requirements are met, you may request disclosure, correction, deletion, or suspension of use or third-party provision.</li>
+        <li><strong>Canada:</strong> Applicable federal or provincial law may provide access and correction rights.</li>
+        <li><strong>Australia:</strong> Where the Privacy Act and Australian Privacy Principles apply, you may request access to or correction of personal information.</li>
+        <li><strong>Singapore:</strong> Where the PDPA applies, you may request access to or correction of personal data, subject to statutory exceptions.</li>
+        <li><strong>India and other locations:</strong> Rights and remedies provided by local laws apply to the extent those laws are in force and apply to the processing.</li>
+      </ul>
+      <p>Send requests to <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>. The developer can address information it controls; requests about information independently handled by Google or another provider may need to be sent to that provider. You may also complain to the privacy regulator with jurisdiction over you.</p>
+      <h3>Children</h3>
+      <p>Phone Guardian is not designed for children. The app’s Google Play target-audience settings must match this statement. If the app is offered to children in a market, the developer must meet that market’s child-privacy rules and Google Play Families requirements before doing so.</p>
+      <h3>Changes and contact</h3>
+      <p>We will update this notice when app features, SDKs, or data practices change and revise the effective date. Developer: Momo World. Privacy contact: <a href="mailto:say101011@gmail.com">say101011@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer>Phone Guardian 개인정보처리방침 · 마지막 업데이트: 2026년 10월 6일</footer>
+</body>
+</html>
